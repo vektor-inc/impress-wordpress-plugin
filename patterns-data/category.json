@@ -1,0 +1,20 @@
+[
+    {
+        "name": "WordPressの教本 完成",
+        "slug": "wp-textbook-complete",
+        "term_group": 0,
+        "taxonomy": "vk-managing-patterns-category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+    },
+    {
+        "name": "WordPressの教本 素材",
+        "slug": "wp-textbook-material",
+        "term_group": 0,
+        "taxonomy": "vk-managing-patterns-category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+    }
+]
