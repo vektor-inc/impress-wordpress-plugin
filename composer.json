@@ -1,0 +1,20 @@
+{
+	"name": "vektor-inc/impress-wordpress-textbook",
+	"description": "",
+	"type": "project",
+	"require": {
+		"yahnis-elsts/plugin-update-checker": "^4.11"
+	},
+	"license": "gpl",
+	"authors": [
+		{
+			"name": "vektor,inc.",
+			"email": "info@vektor-inc.co.jp"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
