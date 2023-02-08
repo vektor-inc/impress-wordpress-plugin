@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     impress-wordpress-textbook
  * Domain Path:     /languages
- * Version:         0.2.0
+ * Version:         0.2.1
  *
  * @package         IMPRESS_WORDPRESS_TEXTBOOK
  */
