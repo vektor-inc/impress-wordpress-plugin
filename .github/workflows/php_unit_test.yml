@@ -3,7 +3,7 @@ name: PHP Unit Test
 on:
     pull_request:
         branches:
-            - master
+            - main
             - develop
             - ^feature/.+
 
