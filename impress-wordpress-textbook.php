@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     impress-wordpress-textbook
  * Domain Path:     /languages
- * Version:         0.2.1
+ * Version:         0.2.2
  *
  * @package         IMPRESS_WORDPRESS_TEXTBOOK
  */
@@ -33,6 +33,5 @@ if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ){
 	);
     $my_update_checker->getVcsApi()->enableReleaseAssets();
 }
-
 
 include( dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php' );
