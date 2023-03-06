@@ -27,9 +27,9 @@ if ( file_exists( $autoload_path ) ) {
 // Update Checker
 if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ){
 	$my_update_checker = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-		'https://vws.vektor-inc.co.jp/updates/?action=get_metadata&slug=vk-filter-search-pro',
+		'https://github.com/vektor-inc/impress-wordpress-textbook',
 		__FILE__,
-		'vk-filter-search-pro'
+		'impress-wordpress-textbook'
 	);
     $my_update_checker->getVcsApi()->enableReleaseAssets();
 }
