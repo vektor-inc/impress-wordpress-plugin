@@ -1,0 +1,32 @@
+{
+	"name": "impress-wordpress-textbook",
+	"version": "1.0.1",
+	"description": "Support Filtering Search of keyword, post-type and taxonomy.",
+	"main": "gulpfile.js",
+	"scripts": {
+		"start": "npm install && composer install && npx wp-env start",
+		"update": "ncu -u && rm -rf node_modules && npm install",
+		"wp-env": "wp-env",
+		"dist": "composer install --no-dev && gulp dist",
+		"phpunit": "npx wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/impress-wordpress-textbook/.phpunit.xml --testsuite default --verbose\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vektor-inc/vk-filter-search-pro.git"
+	},
+	"author": "Vektor, Inc.",
+	"license": "GPL-2.0-or-later",
+	"bugs": {
+		"url": "https://github.com/vektor-inc/vk-filter-search-pro/issues"
+	},
+	"homepage": "https://github.com/vektor-inc/vk-filter-search-pro#readme",
+	"devDependencies": {
+		"@wordpress/env": "^5.13.0",
+		"gulp": "^4.0.2",
+		"npm-check-updates": "^16.7.10"
+	},
+	"volta": {
+		"node": "16.15.1",
+		"npm": "8.12.1"
+	}
+}
