@@ -17,6 +17,8 @@ https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/
 
 == Changelog ==
 
+* 背景なしロゴ削除
+
 = 0.3.0 =
 * プラグイン名変更
 * 管理画面からのアップデート実装
