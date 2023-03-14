@@ -17,6 +17,7 @@ https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/
 
 == Changelog ==
 
+* リリースファイルに不要な composer ファイルが入らないように変更
 * 背景なしロゴ削除
 
 = 0.3.0 =

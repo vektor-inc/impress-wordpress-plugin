@@ -15,7 +15,7 @@ jobs:
         strategy:
             matrix:
                 php-versions: ['7.4', '8.0', '8.1']
-                wp-versions: ['6.1.1', '6.0.3', '5.9.5']
+                wp-versions: ['6.1.1', '6.0.3']
         services:
             mysql:
                 image: mysql:5.7
@@ -75,7 +75,7 @@ jobs:
             - name: Install NPM Scripts
               run: npm install
             - name: Install Composer Packages
-              run: composer install
+              run: composer install --no-dev
             - name: Make Distribution
               run: |
                   npm run dist
