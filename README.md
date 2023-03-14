@@ -1,1 +1,1 @@
-# impress-wordpress-textbook
+# impress-wordpress-plugin

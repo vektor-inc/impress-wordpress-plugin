@@ -1,5 +1,5 @@
 {
-	"name": "vektor-inc/impress-wordpress-textbook",
+	"name": "vektor-inc/impress-wordpress-plugin",
 	"require-dev": {
 		"sirbrillig/phpcs-variable-analysis": "^2.9",
 		"wp-phpunit/wp-phpunit": "^5.5",

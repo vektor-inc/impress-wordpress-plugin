@@ -18,5 +18,5 @@ gulp.task( 'dist', function () {
 				base: './',
 			}
 		)
-		.pipe( gulp.dest( 'dist/impress-wordpress-textbook' ) ); // dist/lightning-proディレクトリに出力
+		.pipe( gulp.dest( 'dist/impress-wordpress-plugin' ) ); // dist/lightning-proディレクトリに出力
 } );

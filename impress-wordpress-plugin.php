@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name:     Impress WordPress Textbook
+ * Plugin Name:     Impress WordPress Plugin
  * Plugin URI:      https://book.impress.co.jp/books/この書籍のURL
  * Description:     いちばんやさしいWordPressの教本 第6版 素材同梱プラグイン
  * Author:          Vektor,Inc.
  * Author URI:
- * Text Domain:     impress-wordpress-textbook
+ * Text Domain:     impress-wordpress-plugin
  * Domain Path:     /languages
- * Version:         0.2.2
+ * Version:         0.3.0
  *
- * @package         IMPRESS_WORDPRESS_TEXTBOOK
+ * @package         vektor-inc/impress-wordpress-plugin
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -27,9 +27,9 @@ if ( file_exists( $autoload_path ) ) {
 // Update Checker
 if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ){
 	$my_update_checker = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-		'https://github.com/vektor-inc/impress-wordpress-textbook',
+		'https://github.com/vektor-inc/impress-wordpress-plugin',
 		__FILE__,
-		'impress-wordpress-textbook'
+		'impress-wordpress-plugin'
 	);
     $my_update_checker->getVcsApi()->enableReleaseAssets();
 }
