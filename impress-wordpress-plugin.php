@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     impress-wordpress-plugin
  * Domain Path:     /languages
- * Version:         0.４.0
+ * Version:         0.４.1
  *
  * @package         vektor-inc/impress-wordpress-plugin
  */
@@ -20,18 +20,18 @@ defined( 'ABSPATH' ) || exit;
 $autoload_path = plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 // vendor ディレクトリがない状態で誤配信された場合に Fatal Error にならないようにファイルの存在確認.
 if ( file_exists( $autoload_path ) ) {
-	// Composer のファイルを読み込み ( composer install --no-dev )
+	// Composer のファイルを読み込み ( composer install --no-dev ).
 	require_once $autoload_path;
 }
 
-// Update Checker
-if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ){
+// Update Checker.
+if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ) {
 	$my_update_checker = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
 		'https://github.com/vektor-inc/impress-wordpress-plugin',
 		__FILE__,
 		'impress-wordpress-plugin'
 	);
-    $my_update_checker->getVcsApi()->enableReleaseAssets();
+	$my_update_checker->getVcsApi()->enableReleaseAssets();
 }
 
-include( dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php' );
+require dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php';

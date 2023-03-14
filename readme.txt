@@ -1,21 +1,20 @@
 === Impress WordPress Plugin ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://example.com/
+Contributors: kurudrive
 Tags: comments, spam
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 0.４.0
+Stable tag: 0.４.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 
 == Description ==
 
-https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/
-
 == Changelog ==
+
+= 0.４.1 =
+Update test
 
 = 0.４.0 =
 * リリースファイルに不要な composer ファイルが入らないように変更
