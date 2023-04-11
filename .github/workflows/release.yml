@@ -76,9 +76,10 @@ jobs:
               run: npm install
             - name: Install Composer Packages
               run: composer install --no-dev
+            - name: Run dist
+              run: npm run dist
             - name: Make Distribution
               run: |
-                  npm run dist
                   cd dist/ && zip -r ${{ env.plugin_name }}.zip ${{ env.plugin_name }}/ && mv ${{ env.plugin_name }}.zip ${GITHUB_WORKSPACE}
             - name: Create GitHub Release
               id: create_release
