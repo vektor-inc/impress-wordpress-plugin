@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Impress WordPress Plugin
- * Plugin URI:      https://book.impress.co.jp/books/この書籍のURL
+ * Plugin URI:      https://book.impress.co.jp/books/1122101130
  * Description:     いちばんやさしいWordPressの教本 第6版 素材同梱プラグイン
  * Author:          Vektor,Inc.
  * Author URI:
