@@ -13,8 +13,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+* プラグインURL変更
+
 = 0.４.1 =
-Update test
+* Update test
 
 = 0.４.0 =
 * リリースファイルに不要な composer ファイルが入らないように変更
@@ -25,10 +27,10 @@ Update test
 * 管理画面からのアップデート実装
 
 = 0.2.1 =
-お店情報素材パターンアップデート
+* お店情報素材パターンアップデート
 
 = 0.2.0 =
-スライドパターンアップデート
+* スライドパターンアップデート
 
 = 0.1.0 =
-First release
+* First release
