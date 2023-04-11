@@ -5,7 +5,7 @@
  * @package VK Block Pattern Plugin Generator
  */
 
-namespace wp_content\plugins\impress_wordpress_textbook\patterns_data;
+namespace wp_content\plugins\impress_wordpress_plugin\patterns_data;
 
 /**
  * 生成先のテーマ・プラグインでブロックパターン情報を読み込んで登録
