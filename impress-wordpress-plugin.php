@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     impress-wordpress-plugin
  * Domain Path:     /languages
- * Version:         0.４.2
+ * Version:         0.４.3
  *
  * @package         vektor-inc/impress-wordpress-plugin
  */
