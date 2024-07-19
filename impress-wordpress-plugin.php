@@ -7,7 +7,7 @@
  * Author URI:
  * Text Domain:     impress-wordpress-plugin
  * Domain Path:     /languages
- * Version:         0.5.0
+ * Version:         0.5.1
  *
  * @package         vektor-inc/impress-wordpress-plugin
  */
@@ -34,4 +34,4 @@ if ( class_exists( 'YahnisElsts\PluginUpdateChecker\v5\PucFactory' ) ) {
 	$my_update_checker->getVcsApi()->enableReleaseAssets();
 }
 
-require dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php';
+require __DIR__ . '/patterns-data/class-register-patterns-from-json.php';
