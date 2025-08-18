@@ -8,7 +8,8 @@
 		"update": "ncu -u && rm -rf node_modules && npm install",
 		"wp-env": "wp-env",
 		"dist": "composer install --no-dev && gulp dist",
-		"phpunit": "npx wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/impress-wordpress-plugin/.phpunit.xml --testsuite default --verbose\""
+		"phpunit_": "npx wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/impress-wordpress-plugin/.phpunit.xml --testsuite default --verbose\"",
+		"phpunit": "wp-env run tests-cli --env-cwd='wp-content/plugins/impress-wordpress-plugin' vendor/bin/phpunit -c .phpunit.xml --verbose"
 	},
 	"repository": {
 		"type": "git",
@@ -21,8 +22,8 @@
 	},
 	"homepage": "https://github.com/vektor-inc/vk-filter-search-pro#readme",
 	"devDependencies": {
-		"@wordpress/env": "^5.13.0",
-		"gulp": "^4.0.2",
+		"@wordpress/env": "^10.28.0",
+		"gulp": "^5.0.1",
 		"npm-check-updates": "^16.7.10"
 	},
 	"volta": {
