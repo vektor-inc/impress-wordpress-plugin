@@ -7,7 +7,7 @@
 		"start": "npm install && composer install && npx wp-env start",
 		"update": "ncu -u && rm -rf node_modules && npm install",
 		"wp-env": "wp-env",
-		"dist": "composer install --no-dev && gulp dist",
+		"dist": "composer install --no-dev && npx gulp dist",
 		"phpunit_": "npx wp-env run phpunit \"phpunit -c /var/www/html/wp-content/plugins/impress-wordpress-plugin/.phpunit.xml --testsuite default --verbose\"",
 		"phpunit": "wp-env run tests-cli --env-cwd='wp-content/plugins/impress-wordpress-plugin' vendor/bin/phpunit -c .phpunit.xml --verbose"
 	},

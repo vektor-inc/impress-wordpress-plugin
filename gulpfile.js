@@ -5,7 +5,6 @@ gulp.task( 'dist', function () {
 	return gulp
 		.src(
 			[
-				'./images/**',
 				'./patterns-data/**',
 				'./vendor/**',
 				'./**/*.php',
