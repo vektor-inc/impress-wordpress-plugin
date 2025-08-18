@@ -2,9 +2,9 @@
 Contributors: kurudrive
 Tags: comments, spam
 Requires at least: 6.1
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.5.1
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 
 == Changelog ==
+
+= 0.5.2 =
+* プラグインディスクリプション変更のみ
 
 = 0.5.1 =
 * サイトエディタで発生する不具合を修正

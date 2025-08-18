@@ -2,12 +2,12 @@
 /**
  * Plugin Name:     Impress WordPress Plugin
  * Plugin URI:      https://book.impress.co.jp/books/1122101130
- * Description:     いちばんやさしいWordPressの教本 第6版 素材同梱プラグイン
+ * Description:     いちばんやさしいWordPressの教本 素材同梱プラグイン
  * Author:          Vektor,Inc.
  * Author URI:
  * Text Domain:     impress-wordpress-plugin
  * Domain Path:     /languages
- * Version:         0.5.1
+ * Version:         0.5.2
  *
  * @package         vektor-inc/impress-wordpress-plugin
  */
