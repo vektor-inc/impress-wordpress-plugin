@@ -28,13 +28,10 @@ jobs:
                     MYSQL_PASSWORD: wordpress
         steps:
             - uses: actions/checkout@v3
-            - name: Read .node-version
-              run: echo "{NODEVERSION}={$(cat .node-version)}" >> $GITHUB_OUTPUT
-              id: nodenv
             - name: Setup Node.js (.node-version)
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: '${{ steps.nodenv.outputs.NODEVERSION }}'
+                  node-version-file: '.node-version'
             - name: Cache multiple paths
               uses: actions/cache@v3
               with:
@@ -61,13 +58,10 @@ jobs:
         needs: [php_unit]
         steps:
             - uses: actions/checkout@v3
-            - name: Read .node-version
-              run: echo "##[set-output name=NODEVERSION;]$(cat .node-version)"
-              id: nodenv
             - name: Setup Node.js (.node-version)
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: '${{ steps.nodenv.outputs.NODEVERSION }}'
+                  node-version-file: '.node-version'
             - name: Setup PHP 7.4
               uses: shivammathur/setup-php@v2
               with:
