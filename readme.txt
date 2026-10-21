@@ -13,6 +13,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+* [ 開発環境 ] Node.js を 24 系に更新し、.node-version で CI と開発環境のバージョンを統一
+
 = 0.5.4 =
 * distコマンドで出力される画像が壊れる不具合を修正
 
